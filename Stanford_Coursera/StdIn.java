@@ -2,9 +2,9 @@
  *  Compilation:  javac StdIn.java
  *  Execution:    java StdIn   (interactive test of basic functionality)
  *  Dependencies: none
- *
+ * 
  *  Reads in data of various types from standard input.
- *
+ *  From https://introcs.cs.princeton.edu/java/stdlib/
  ******************************************************************************/
 
 import java.util.ArrayList;
