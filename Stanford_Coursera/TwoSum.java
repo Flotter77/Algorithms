@@ -1,5 +1,7 @@
 import java.util.*;
 
+/* Inspired by @HuangLiPang Two-Sum_Algorithm(hash table chaining).c */
+
 public class TwoSum {
 
     public static int idx(Long value){
