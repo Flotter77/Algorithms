@@ -23,7 +23,7 @@ public class myHashMap{
         return index;
     }
 
-    public void put(Long value) {
+    public void put(Long value){
         valSet.add(value);
         int i = idx(value);
         if (buckets[i] == null)
@@ -39,7 +39,7 @@ public class myHashMap{
 
     }
 
-    public boolean contains(Long val) {
+    public boolean contains(Long val){
         int i = idx(val);
         if (buckets[i] == null) return false;
         else {
@@ -49,13 +49,13 @@ public class myHashMap{
         }
     }
 
-    public boolean contains(int index) {
+    public boolean contains(int index){
         if (buckets[index] == null) return false;
         else return true;
     }
 
 
-    public void remove(Long val) {
+    public void remove(Long val){
         int i = idx(val);
         if (buckets[i] == null) return;
         ListNode prev = find(buckets[i], val);
@@ -65,7 +65,7 @@ public class myHashMap{
         size--;
     }
 
-    ListNode find(Bucket bucket, Long val) {
+    ListNode find(Bucket bucket, Long val){
         ListNode node = bucket.head, prev = null;
         while (node != null && node.val != val) {
             prev = node;
@@ -75,11 +75,11 @@ public class myHashMap{
     }
 }
 
-class Bucket {
+class Bucket{
     final ListNode head = new ListNode(-1,  -1L);
 }
 
-class ListNode {
+class ListNode{
     int index;
     Long val;
     ListNode next;
