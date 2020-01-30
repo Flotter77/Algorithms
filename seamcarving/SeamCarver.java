@@ -1,12 +1,6 @@
 /* *****************************************************************************
  *  Name:    Chi Qi
- *  NetID:   jinyuanq
- *  Precept: P03
- *
- *  Partner Name:   NA
- *  Partner NetID:   NA
- *  Partner Precept: NA
- *
+
  *  Description: a data type that resizes a W-by-H image using
  *  the seam-carving technique.
  **************************************************************************** */
