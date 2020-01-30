@@ -19,3 +19,4 @@ To Find the vertical seam:
   1. Transpose the picture
   2. Run findVerticalSeam() to find the horizontal seam
   3. Transpose the picture back
+
