@@ -1,3 +1,5 @@
+# Seamcarving Algorithm 
+
 This algorithm uses Dijkstra's alogrithm to find the vertical or horizontal seam in a picture and removes it.
 
 To Find the vertical seam:
