@@ -1,11 +1,5 @@
 /* *****************************************************************************
  *  Name:    Chi Qi
- *  NetID:   jinyuanq
- *  Precept: P03
- *
- *  Partner Name:    NA
- *  Partner NetID:   NA
- *  Partner Precept: NA
  *
  *  Description:this data type is the abstraction of a sorted array of
  *  the n circular suffixes of a string of length n.
