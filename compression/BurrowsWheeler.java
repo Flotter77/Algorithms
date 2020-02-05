@@ -1,11 +1,5 @@
 /* *****************************************************************************
  *  Name:    Chi Qi
- *  NetID:   jinyuanq
- *  Precept: P03
- *
- *  Partner Name:    NA
- *  Partner NetID:   NA
- *  Partner Precept: NA
  *
  *  Description: This API conducts Burrows-Wheeler transform and
  *  Burrows-Wheeler inverse transform. The input message will be transformed
