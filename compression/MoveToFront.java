@@ -1,11 +1,5 @@
 /* *****************************************************************************
  *  Name:    Chi Qi
- *  NetID:   jinyuanq
- *  Precept: P03
- *
- *  Partner Name:    NA
- *  Partner NetID:   NA
- *  Partner Precept: NA
  *
  *  Description: maintain an ordered sequence of the characters in the alphabet
  *  by repeatedly reading a character from the input message;
